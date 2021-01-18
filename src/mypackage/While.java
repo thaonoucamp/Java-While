@@ -38,7 +38,7 @@ public class While {
 //        } while (index < arr.length);
 
 
-        // Vong lap for(; ; ;);
+    /*    // Vong lap for(; ; ;);
         // Dieu kien tang len 2 lan;
         for (int i = 0; i < 5; i += 2) {
             System.out.println(i);
@@ -66,6 +66,19 @@ public class While {
         int [] arr = {1,2,3,4,5};
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
+        }
+     */
+
+        // For-Each;
+        // X dai dien cac phan tu trong mang, truyen vao mang de duyet;
+        int []arr = {1,2,3,4,5};
+        for (int x: arr) {
+            System.out.println(x);
+        }
+
+        String [] str = {"Hello", "World", "Java core"};
+        for (String s : str) {
+            System.out.println(s);
         }
     }
 }
