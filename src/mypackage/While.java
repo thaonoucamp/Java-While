@@ -21,21 +21,51 @@ public class While {
 //        }
 
         // Do-while(chay cau lenh xong check dieu kien;
-        int i = 0;
-        do {
+//        int i = 0;
+//        do {
+//            System.out.println(i);
+//            i++;
+//        } while (i < 5);
+//
+//        int []arr = {1,2,3,4,5};
+//
+//
+//        int index = 0;
+//
+//        do {
+//            System.out.println(arr[index]);
+//            index++;
+//        } while (index < arr.length);
+
+
+        // Vong lap for(; ; ;);
+        // Dieu kien tang len 2 lan;
+        for (int i = 0; i < 5; i += 2) {
             System.out.println(i);
-            i++;
-        } while (i < 5);
+        }
+        System.out.println("Ket thuc");
 
-        int []arr = {1,2,3,4,5};
+        // Dieu kien tang len 3 lan;
+        int x = 0;
+        for ( ; x < 5; ) {
+            System.out.println(x);
+            x += 3;
+        }
 
+        // Dieu kien tang len 1 lan;
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
 
-        int index = 0;
+        // Dieu kien giam 1 lan;
+        for (int i = 5; i > 0; i--) {
+            System.out.println(i);
+        }
 
-        do {
-            System.out.println(arr[index]);
-            index++;
-        } while (index < arr.length);
-
+        // Duyet va in cac phan tu trong Mang;
+        int [] arr = {1,2,3,4,5};
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
     }
 }
